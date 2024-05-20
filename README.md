@@ -1,7 +1,7 @@
 <h1 align=center>Astro Simple Portfolio</h1>
 
 <p align=center>A simple and high performing portfolio template built with Astro.</p>
-<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-samin-dev/bgw5yxh9j8?form_factor=desktop"> Page Speed (100) 🚀 </a>
+<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
 </h2>
 <p align=center>
   <a href="https://github.com/withastro/astro/releases/tag/astro%404.8.6" alt="Astro">
@@ -38,9 +38,6 @@ All commands are run from the root of the project, from a terminal:
 ### ✍️ Contributing
 
 Contributions are welcome. Please open an issue or submit a pull request.
-
-### 💖 How to Support
-You can demonstrate your support for this project by giving a Star ⭐ to this repository and sharing it with your friends. If you encounter any bugs, please open an issue. Feel free to contribute to the project through pull requests if you fix an issue or if you believe you can add more value to the project.
 
 ### 📄 License
 
