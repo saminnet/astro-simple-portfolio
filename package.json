@@ -1,0 +1,36 @@
+{
+  "name": "astro-simple-portfolio",
+  "author": "Samin Yousefnia <hello@samin.dev>",
+  "description": "A simple portfolio template built with Astro",
+  "type": "module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.6.0",
+    "@fontsource-variable/sora": "^5.0.18",
+    "astro": "^4.8.6",
+    "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "typescript": "^5.4.5"
+  },
+  "lint-staged": {
+    "*": "pnpm run lint:fix"
+  }
+}

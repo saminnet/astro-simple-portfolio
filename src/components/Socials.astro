@@ -1,0 +1,78 @@
+---
+/**
+ * This section is for adding your social media links.
+ *
+ * 1. Add your social media links: Replace 'xxx' with your username for each social media platform.
+ * 2. Add more links: If you want to include more social media platforms, replicate the existing pattern and update the `Type` enum accordingly.
+ * 3. Adjust the order: You can change the order of the social media icons by rearranging the objects.
+ * 4. Customize icon colors: To change the color of the icons, refer to the Tailwind CSS color classes. Visit: https://tailwindcss.com/docs/customizing-colors
+ *
+ */
+
+enum Type {
+	linkedIn = 'LinkedIn',
+	gitHub = 'GitHub',
+	twitter = 'Twitter',
+	instagram = 'Instagram',
+	email = 'Email',
+	titok = 'TikTok',
+}
+
+const socials = [
+	{
+		name: Type.twitter,
+		url: 'https://twitter.com/xxx',
+		icon: 'assets/svg/icons/x.svg',
+		color: 'bg-gray-800',
+	},
+	{
+		name: Type.gitHub,
+		url: 'https://github.com/xxx',
+		icon: 'assets/svg/icons/github.svg',
+		color: 'bg-cyan-500',
+	},
+	{
+		name: Type.instagram,
+		url: 'https://www.instagram.com/xxx',
+		icon: 'assets/svg/icons/instagram.svg',
+		color: 'bg-yellow-400',
+	},
+	{
+		name: Type.email,
+		url: 'xxx@email.com',
+		icon: 'assets/svg/icons/email.svg',
+		color: 'bg-lime-400',
+	},
+	{
+		name: Type.linkedIn,
+		url: 'https://www.linkedin.com/in/xxx',
+		icon: 'assets/svg/icons/linkedin.svg',
+		color: 'bg-sky-700',
+	},
+	{
+		name: Type.titok,
+		url: 'https://www.tiktok.com/xxx',
+		icon: 'assets/svg/icons/tiktok.svg',
+		color: 'bg-pink-400',
+	},
+];
+
+const getColor = (type: Type) => socials.find((social) => social.name === type)?.color;
+const getClass = (type: Type) =>
+	`scale-100 rounded-full border-2 border-gray-950 ${getColor(
+		type,
+	)} transition duration-300 hover:scale-110 animate-zoom-in`;
+---
+
+<div class="grid grid-cols-3 gap-3 md:grid-flow-col md:gap-2 duration-500">
+	{
+		socials.map((social) => {
+			const href = social.name === Type.email ? `mailto:${social.url}` : social.url;
+			return (
+				<a aria-label={social.name} class={getClass(social.name)} href={href} target="_blank" rel="nofollow noopner">
+					<img class="size-14 p-3 md:size-16" src={social.icon} alt={social.name} />
+				</a>
+			);
+		})
+	}
+</div>
