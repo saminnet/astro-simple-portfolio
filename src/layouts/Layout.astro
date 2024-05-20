@@ -6,6 +6,8 @@ interface Props {
 }
 
 const { title, siteName, siteDescription } = Astro.props;
+
+import { AstroFont } from 'astro-font';
 ---
 
 <!doctype html>
@@ -24,6 +26,19 @@ const { title, siteName, siteDescription } = Astro.props;
             content={siteDescription}
         />
         <link rel="sitemap" href="/sitemap-index.xml" />
+        <AstroFont
+            config={[
+                    {
+                        src: [],
+                        name: "Sora",
+                        preload: false,
+                        display: "swap",
+                        fallback: "sans-serif",
+                        selector: ".font-sora",
+                        googleFontsURL: 'https://fonts.googleapis.com/css2?family=Sora:wght@100..800',
+                    },
+                ]}
+            />
     </head>
     <body>
         <div
