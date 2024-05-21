@@ -1,5 +1,7 @@
 ---
-const source = 'assets/img/ai-generated-portrait.webp';
+import { Image } from 'astro:assets';
+
+const src = '/assets/img/ai-generated-portrait.webp';
 
 /**
  * Image by flatart on Freepik
@@ -10,9 +12,12 @@ const source = 'assets/img/ai-generated-portrait.webp';
 ---
 
 <div class="flex justify-center items-center rounded-full border-4 border-gray-950">
-	<img
-			class="animate-zoom-in-out rounded-full size-36 md:size-40 p-0.5 duration-300"
-			src={source}
-			alt="Selfie of me"
+	<Image
+		src={src}
+		alt="Selfie of me"
+		width={156}
+		height={156}
+		class="animate-zoom-in-out rounded-full size-36 md:size-40 p-0.5 duration-300"
+		loading="eager"
 	/>
 </div>
