@@ -4,7 +4,7 @@
   "description": "A simple portfolio template built with Astro",
   "type": "module",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -32,5 +32,8 @@
   },
   "lint-staged": {
     "*": "pnpm run lint:fix"
+  },
+  "engines": {
+    "pnpm": "9.x"
   }
 }

@@ -1,11 +1,10 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
-
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			backgroundImage: {
+				horizonAnimated: "url('/assets/svg/backgrounds/horizon-animated.svg')",
 				horizon: "url('/assets/svg/backgrounds/horizon.svg')",
 			},
 			keyframes: {

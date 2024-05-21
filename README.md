@@ -13,12 +13,14 @@
 
 ### 📌 Key Features
 
-- 🎨 Highly customizable (Color, Font, etc.)
-- ⚡ Fast by default (100 Google PageSpeed Score)
-- 🎨 Built with Tailwind CSS framework
-- 📱 Fully responsive on desktops, tablets, and smartphones
-- 💬 Code format using [Biomejs](https://biomejs.dev/)
-- 🔍 SEO Friendly
+- 🎨 Highly customizable (Colors, Fonts, etc.)
+- 🌅 Supports both static and animated backgrounds
+- 🅰️ Incorporates `astro-fonts` for automatic Google fonts optimization
+- ⚡ Designed for speed (100 Google PageSpeed Score)
+- 🎨 Built with the Tailwind CSS framework
+- 📱 Fully responsive across all devices - desktops, tablets, and smartphones
+- 💬 Code formatted using [Biomejs](https://biomejs.dev/)
+- 🔍 SEO optimized
 
 ### 🧞 Commands
 
