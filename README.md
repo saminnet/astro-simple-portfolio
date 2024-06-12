@@ -4,8 +4,8 @@
 <h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%404.9.2" alt="Astro">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.9.2&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%404.10" alt="Astro">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.10&color=000&logo=astro" />
   </a>
 </p>
 
