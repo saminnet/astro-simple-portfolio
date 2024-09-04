@@ -39,8 +39,6 @@ const getClass = (type: DetailType) => {
 };
 ---
 
-<div
-	class="grid grid-cols-1 place-content-center place-items-center gap-5"
->
+<div class="grid grid-cols-1 place-content-center place-items-center gap-5">
 	{details.map((detail) => <p class={getClass(detail.type)}>{detail.content}</p>)}
 </div>

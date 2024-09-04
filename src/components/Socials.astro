@@ -64,12 +64,18 @@ const getClass = (type: Type) =>
 	)} transition duration-300 hover:scale-110 animate-zoom-in`;
 ---
 
-<div class="grid grid-cols-3 gap-3 md:grid-flow-col md:gap-2 duration-500">
+<div class="grid grid-cols-3 gap-3 duration-500 md:grid-flow-col md:gap-2">
 	{
 		socials.map((social) => {
 			const href = social.name === Type.email ? `mailto:${social.url}` : social.url;
 			return (
-				<a aria-label={social.name} class={getClass(social.name)} href={href} target="_blank" rel="nofollow noopner">
+				<a
+					aria-label={social.name}
+					class={getClass(social.name)}
+					href={href}
+					target="_blank"
+					rel="nofollow noopner"
+				>
 					<img class="size-14 p-3 md:size-16" src={social.icon} alt={social.name} />
 				</a>
 			);

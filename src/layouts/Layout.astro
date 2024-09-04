@@ -24,23 +24,21 @@ const { title, siteName, siteDescription } = Astro.props;
 		<meta property="og:description" content={siteDescription} />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<AstroFont
-		config={[
-						{
-								src: [],
-								name: "Sora",
-								preload: false,
-								display: "swap",
-								fallback: "sans-serif",
-								selector: ".font-sora",
-								googleFontsURL: 'https://fonts.googleapis.com/css2?family=Sora:wght@100..800',
-						},
-				]}
+			config={[
+				{
+					src: [],
+					name: 'Sora',
+					preload: false,
+					display: 'swap',
+					fallback: 'sans-serif',
+					selector: '.font-sora',
+					googleFontsURL: 'https://fonts.googleapis.com/css2?family=Sora:wght@100..800',
+				},
+			]}
 		/>
 	</head>
 	<body>
-		<div
-			class="bg-zinc-100 bg-horizonAnimated bg-cover bg-scroll bg-center bg-no-repeat"
-		>
+		<div class="bg-zinc-100 bg-horizonAnimated bg-cover bg-scroll bg-center bg-no-repeat">
 			<div class="grid min-h-dvh grid-cols-1 place-content-center place-items-center gap-5">
 				<slot />
 			</div>
