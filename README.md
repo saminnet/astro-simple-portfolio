@@ -4,8 +4,8 @@
 <h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%404.11" alt="Astro">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.11&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%404.15.2" alt="Astro">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.15&color=000&logo=astro" />
   </a>
 </p>
 
@@ -19,7 +19,7 @@
 - ⚡ Designed for speed (100 Google PageSpeed Score)
 - 🎨 Built with the Tailwind CSS framework
 - 📱 Fully responsive across all devices - desktops, tablets, and smartphones
-- 💬 Code formatted using [Biomejs](https://biomejs.dev/)
+- 💬 Code formatted using [Prettier](https://prettier.io/)
 - 🔍 SEO optimized
 
 ### 🧞 Commands
@@ -28,14 +28,14 @@ This project utilizes [pnpm](https://pnpm.io) as its package manager. However, y
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command                    | Action                                           |
+| :------------------------- | :----------------------------------------------- |
+| `pnpm install`             | Installs dependencies                            |
+| `pnpm run dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm run build`           | Build your production site to `./dist/`          |
+| `pnpm run preview`         | Preview your build locally, before deploying     |
+| `pnpm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm run astro -- --help` | Get help using the Astro CLI                     |
 
 ### ✍️ Contributing
 
