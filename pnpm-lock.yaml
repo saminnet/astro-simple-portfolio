@@ -18,8 +18,8 @@ importers:
         specifier: ^5.1.3
         version: 5.1.3(astro@5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1))(tailwindcss@3.4.16)
       '@astrojs/vercel':
-        specifier: ^8.0.0
-        version: 8.0.0(astro@5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1))(rollup@4.28.0)
+        specifier: ^8.0.1
+        version: 8.0.1(astro@5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1))(rollup@4.28.0)
       astro:
         specifier: ^5.0.4
         version: 5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1)
@@ -99,8 +99,8 @@ packages:
     resolution: {integrity: sha512-wxhSKRfKugLwLlr4OFfcqovk+LIFtKwLyGPqMsv+9/ibqqnW3Gv7tBhtKEb0gAyUAC4G9BTVQeQahqnQAhd6IQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
 
-  '@astrojs/vercel@8.0.0':
-    resolution: {integrity: sha512-JEVt/J9NJ0unMCLh2fCOvr9M6Mugph3SoNSzaRLR88hA6ckakHabSAMyd8fTFy4pogPH/puyQkiKak7nsHyM6g==}
+  '@astrojs/vercel@8.0.1':
+    resolution: {integrity: sha512-0TgXOlT8HpZNyLpbFuw2tAvo5Azdz/PlRg8/Oak7Skj3uivhSePR9ftt0uq93ofgzHtF7Gzs9BKcH+BsAwff9Q==}
     peerDependencies:
       astro: ^5.0.0
 
@@ -2649,7 +2649,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vercel@8.0.0(astro@5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1))(rollup@4.28.0)':
+  '@astrojs/vercel@8.0.1(astro@5.0.4(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1))(rollup@4.28.0)':
     dependencies:
       '@astrojs/internal-helpers': 0.4.2
       '@vercel/analytics': 1.4.1
