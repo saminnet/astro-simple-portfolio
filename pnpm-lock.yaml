@@ -24,8 +24,8 @@ importers:
         specifier: ^5.2.5
         version: 5.2.5(jiti@1.21.6)(rollup@4.34.6)(typescript@5.7.3)(yaml@2.7.0)
       astro-font:
-        specifier: ^0.1.81
-        version: 0.1.81
+        specifier: ^1.0.0
+        version: 1.0.0
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -750,8 +750,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-font@0.1.81:
-    resolution: {integrity: sha512-rbrv/+ZSYdgyjBlhkAqfCjMxqqo6iEwnSo/rAdDt/POILsF0ChxMFhefIIzKEukrRGtVjEj1lrLRYk+AdV9scQ==}
+  astro-font@1.0.0:
+    resolution: {integrity: sha512-g0Oobl1oBg/GHaAzA2HdIWjbQic19wfSswHvBO+N+wKgWCfCjh0ANiOA3UBzMgUHJ67wqfoM4NZTq9+parkhOw==}
 
   astro@5.2.5:
     resolution: {integrity: sha512-AYXyYkc+c5xbKTm48FyQA91y81nXyNPAaoyafR0LUugE4lAwuvIUcXDBfMzmbuP1lGRvsE33G2oypv6gbGaPFg==}
@@ -3182,7 +3182,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-font@0.1.81: {}
+  astro-font@1.0.0: {}
 
   astro@5.2.5(jiti@1.21.6)(rollup@4.34.6)(typescript@5.7.3)(yaml@2.7.0):
     dependencies:
