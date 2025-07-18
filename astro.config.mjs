@@ -1,5 +1,5 @@
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import vercel from '@astrojs/vercel';
 import { defineConfig } from 'astro/config';
 
@@ -7,6 +7,9 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://astro-simple-portfolio.vercel.app/', // Required for sitemap -> Replace with your site's URL
 	output: 'static',
-	integrations: [tailwind(), sitemap()],
+	integrations: [sitemap()],
 	adapter: vercel(),
+	vite: {
+		plugins: [tailwindcss()],
+	},
 });
