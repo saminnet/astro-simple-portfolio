@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+/* Custom Keyframes for Tailwind CSS 4 */
+@keyframes zoom-in {
+	0% {
+		opacity: 0;
+		transform: scale(0.75);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes zoom-in-out {
+	0% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(1.5rem);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Animation Classes */
+.animate-zoom-in {
+	animation: zoom-in 500ms ease 300ms forwards;
+}
+
+.animate-zoom-in-out {
+	animation: zoom-in-out 700ms ease forwards;
+}
+
+.animate-fade-up {
+	animation: fade-up 700ms ease 300ms forwards;
+}
+
+.animate-fade-in {
+	animation: fade-in 700ms ease 300ms forwards;
+}

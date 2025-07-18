@@ -1,4 +1,5 @@
 ---
+import '../styles/global.css';
 import { AstroFont } from 'astro-font';
 
 interface Props {
@@ -38,7 +39,9 @@ const { title, siteName, siteDescription } = Astro.props;
 		/>
 	</head>
 	<body>
-		<div class="bg-zinc-100 bg-horizonAnimated bg-cover bg-scroll bg-center bg-no-repeat">
+		<div
+			class="bg-zinc-100 bg-[url(/assets/svg/backgrounds/horizon-animated.svg)] bg-cover bg-scroll bg-center bg-no-repeat"
+		>
 			<div class="grid min-h-dvh grid-cols-1 place-content-center place-items-center gap-5">
 				<slot />
 			</div>
