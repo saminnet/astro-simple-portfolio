@@ -19,7 +19,7 @@
     "@astrojs/sitemap": "^3.4.1",
     "@tailwindcss/vite": "^4.1.7",
     "@astrojs/vercel": "^8.2.2",
-    "astro": "^5.12.0",
+    "astro": "^5.12.4",
     "astro-font": "^1.1.0",
     "tailwindcss": "^4.1.11"
   },
