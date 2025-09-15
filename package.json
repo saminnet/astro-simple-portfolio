@@ -21,7 +21,7 @@
     "@astrojs/vercel": "^8.2.7",
     "astro": "^5.13.7",
     "astro-font": "^1.1.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "husky": "^9.1.7",
