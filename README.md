@@ -1,7 +1,7 @@
 <h1 align=center>Astro Simple Portfolio</h1>
 
 <p align=center>A simple and high performing portfolio template built with Astro.</p>
-<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
+<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.pages.dev" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-pages-dev/h2jlbf759y?form_factor=desktop"> Page Speed (100) 🚀 </a>
 </h2>
 
 ![Screenshot](https://github.com/saminnet/astro-simple-portfolio/assets/5575369/ee64b583-1d9c-47f5-9832-863eaf8968a3)
