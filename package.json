@@ -23,7 +23,7 @@
     "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.14.1",
     "astro-font": "^1.1.0",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.1.15"
   },
   "devDependencies": {
     "husky": "^9.1.7",
